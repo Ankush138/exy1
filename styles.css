@@ -1,0 +1,49 @@
+body,h1,h2,p{
+    margin:0;
+    padding: 0;
+}
+header{
+    font-size: large;
+    color: azure;
+    background-color:black ;
+    text-align: center;
+    padding: 50px;
+}
+main{
+    background-color: azure;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: auto;
+    flex: 1;
+    margin: 100px;
+    text-align: center;
+   
+}
+.logo img{
+    border: 1px solid black;
+ 
+    border-radius: 50px;
+    box-shadow: 50%;
+}
+.bio{
+    flex: 2;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: azure;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 50px;
+}
+
+
+
+
